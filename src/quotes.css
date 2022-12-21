@@ -1,0 +1,36 @@
+.main{
+    width: 450px;
+    height: 250px;
+   background-color: white;
+   
+    border-radius: 5px;
+}
+
+.quote>p{
+margin: 10px;
+font-size: 1.5rem;
+padding: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.author{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+button{
+    padding: 0.4rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(49, 49, 231, 0.877);
+    color: white;
+    cursor: pointer;
+}
